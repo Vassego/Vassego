@@ -1,0 +1,22 @@
+<svg width="720" height="94" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="94" fill="#0d1117"/>
+  <text x="13" y="27"
+        font-family="Courier New, monospace"
+        font-size="32"
+        fill="#00ff99">
+    varun@github:~$ echo &quot;Hi, I'm Varun&quot;
+  </text>
+  <text x="13" y="67"
+        font-family="Courier New, monospace"
+        font-size="32"
+        fill="#ffffff">
+    Hi, I'm Varun
+  </text>
+  <!-- Blinking cursor – scaled exactly from the original positions -->
+  <rect x="327" y="47" width="10" height="27" fill="#ffffff">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+</svg>
